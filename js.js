@@ -6,7 +6,7 @@ const $dia = document.getElementById("dia"),
       $conteo = document.getElementsByClassName("contenedor")
 
 //Fecha a llegar
- const Fecha = new Date(2023,05,03).getTime(); 
+ const Fecha = new Date("5 3, 2023 00:00:00").getTime(); 
 
 
 let intervalo = setInterval(function (){
